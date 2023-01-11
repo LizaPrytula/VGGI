@@ -403,7 +403,7 @@ function LoadTexture() {
 
     const image = new Image();
     image.crossOrigin = 'anonymus';
-    image.src = "https://github.com/LizaPrytula/VGGI/blob/CGW/CGWv23TR22/cgw.jpg";
+    image.src = "https://raw.githubusercontent.com/LizaPrytula/VGGI/CGW/CGWv23TR22/cgw.jpg";
     image.onload = () => {
         gl.bindTexture(gl.TEXTURE_2D, texture);
         gl.texImage2D(
